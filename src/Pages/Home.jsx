@@ -16,7 +16,7 @@ const Home = () => {
                         </span>
 
                     </h1>
-                    <p className='font-[400] text-[20px] md:text-[24px] text-[#737171] '>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Non tellus, sapien, morbi ante nunc euismod ac felis ac. Massa et, at platea tempus duis non eget. Hendrerit tortor fermentum bibendum mi nisl semper porttitor. Nec accumsan.</p>
+                    <p className='font-[400] text-[20px] md:text-[24px] text-[#737171] '>Stay on top of your to-dos with the Google Tasks mobile app. Easily capture, manage and get reminded about your tasks from anywhere, at any time. Your to-dos will sync across all your devices, while integrations with Gmail and Google Tasks will help you get tasks done - faster.</p>
                     <div className='mt-5'>
                         <button  className='text-[#FAF9FB] rounded-[8px] w-full lg:w-[201px] md:h-[60px] h-[50px] bg-[#974FD0] font-[500px] text-[12px] md:text-[24px] py-1 px-4'>
                            <Link to="/all-tasks">
