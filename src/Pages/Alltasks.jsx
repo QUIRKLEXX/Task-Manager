@@ -4,7 +4,7 @@ import trashlogo from '../assets/delete-sign.png'
 import editlogo from '../assets/edit-symbol.svg'
 import { Link } from 'react-router-dom'
 import { taskData } from '../db'
-import Mappedtasks from '../components/mappedtasks'
+import Mappedtasks from '../components/Mappedtasks'
 import ScrolltoTop from '../components/ScrolltoTop'
 const Alltasks = () => {
   return (
