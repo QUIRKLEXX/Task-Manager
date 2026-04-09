@@ -4,8 +4,8 @@ import { Link, useMatch } from 'react-router-dom'
 import Navlinks from '../components/Navlinks'
 
 const Navbar = () => {
-    const isTask = useMatch('/all-tasks');
-    const isNew = useMatch('/new-task')
+    const isTask = useMatch('/all-tasks')
+    const isNew = useMatch('/new-task');
     return (
         <>
             <nav className='wrapper flex justify-between border-b-1 border-b-[#B8B6B6]'>

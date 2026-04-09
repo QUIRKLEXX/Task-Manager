@@ -1,10 +1,26 @@
-import React from 'react'
-
+import React, { useState } from 'react'
+import Formm from '../components/Formm'
 const Newtasks = () => {
-  return (
+  const [formData, setformData] = useState({
+    taskTitle:"",
+    description:'',
+    tag:''
+
+  })
+// syntax for onchange
+  const handlechange = (e) =>{
+    const {name,value} = e.target;
+    setformData((prev)=>({...prev,[name]:value}))
+  }
+// syntax onsubmit
+  const handlesubmit = (e)=>{
+    e.preventDefault()
+  }
+  return ( 
     <>
-        <main>
-            <h1>Newtasks</h1>
+        <main className='wrapper'>
+            <Formm formTitle="New Task" formData={formData} onChange={handlechange} Onsubmit={handlesubmit}/>
+
         </main>
     </>
   )

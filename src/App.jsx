@@ -4,6 +4,7 @@ import Newtasks from './Pages/Newtasks'
 import Alltasks from './Pages/Alltasks'
 import Navbar from './layout/Navbar'
 import Errors from './Pages/Errors'
+import Task from './Pages/Task'
 
 
 
@@ -18,6 +19,7 @@ function App() {
  <Route path='/' element={<Home/>}/>
  <Route path='/all-tasks' element={<Alltasks/>}/>
  <Route path='/new-task' element={<Newtasks/>}/>
+ <Route path='/task-id/:taskId' element={<Task/>}/>
  <Route path='*' element={<Errors/>}/>
 </Routes>
 </BrowserRouter>
